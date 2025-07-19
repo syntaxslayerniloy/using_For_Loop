@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main() {
+   int n;
+   //input a number...
+   printf("Enter the number: ");
+   scanf("%d", &n);
+   //using for loop...
+   for(int i=0; i<n; i++) {
+       printf("Hello programmer!!\n");
+    }
+    return 0;
+}
