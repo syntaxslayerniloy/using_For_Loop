@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main() {
+      int m,n;
+    //input two range number.example: 20 to 100
+    printf("Enter the number: ");
+    scanf("%d%d",&m,&n);
+    //using for loop....
+    for(int i=m; i<=n; i++) {
+        printf("%d ",i);
+    }
+    return 0;
+}
